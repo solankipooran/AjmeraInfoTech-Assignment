@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD6373D2D75FF9D00E572B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6373C2D75FF9D00E572B8 /* AppDelegate.swift */; };
+		1AD6373F2D75FF9D00E572B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6373E2D75FF9D00E572B8 /* SceneDelegate.swift */; };
+		1AD637442D75FF9D00E572B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1AD637432D75FF9D00E572B8 /* Base */; };
+		1AD637462D75FF9F00E572B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD637452D75FF9F00E572B8 /* Assets.xcassets */; };
+		1AD637492D75FF9F00E572B8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1AD637482D75FF9F00E572B8 /* Base */; };
+		1AD637542D75FF9F00E572B8 /* AjmeraInfotechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637532D75FF9F00E572B8 /* AjmeraInfotechTests.swift */; };
+		1AD6375E2D75FF9F00E572B8 /* AjmeraInfotechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6375D2D75FF9F00E572B8 /* AjmeraInfotechUITests.swift */; };
+		1AD637602D75FF9F00E572B8 /* AjmeraInfotechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6375F2D75FF9F00E572B8 /* AjmeraInfotechUITestsLaunchTests.swift */; };
+		1AD637702D760AC500E572B8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6376F2D760AC500E572B8 /* SignInViewController.swift */; };
+		1AD637722D760AD300E572B8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637712D760AD300E572B8 /* SignUpViewController.swift */; };
+		1AD637752D760B5B00E572B8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637742D760B5B00E572B8 /* APIService.swift */; };
+		1AD637772D760E8B00E572B8 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637762D760E8B00E572B8 /* SignInViewModel.swift */; };
+		1AD637792D760EC300E572B8 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637782D760EC300E572B8 /* SignUpViewModel.swift */; };
+		1AD6377B2D760F7A00E572B8 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6377A2D760F7A00E572B8 /* SignUpModel.swift */; };
+		1AD6377D2D76104000E572B8 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6377C2D76104000E572B8 /* SignInModel.swift */; };
+		1AD637812D76139900E572B8 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637802D76139900E572B8 /* APIRequestManager.swift */; };
+		1AD637842D76156E00E572B8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637832D76156E00E572B8 /* AppConstants.swift */; };
+		1AD637862D76173A00E572B8 /* APIClientErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637852D76173A00E572B8 /* APIClientErrorManager.swift */; };
+		1AD637892D761CFB00E572B8 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637882D761CFB00E572B8 /* ValidationManager.swift */; };
+		1AD6378B2D76264400E572B8 /* AjmeraAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6378A2D76264400E572B8 /* AjmeraAssets.swift */; };
+		1AD6378D2D762B2C00E572B8 /* AjmeraColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6378C2D762B2C00E572B8 /* AjmeraColors.swift */; };
+		1AD637952D76E07900E572B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637942D76E07900E572B8 /* HomeViewController.swift */; };
+		1AD637972D76ED5E00E572B8 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637962D76ED5E00E572B8 /* Alertable.swift */; };
+		1AD637992D76EE2900E572B8 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637982D76EE2900E572B8 /* Loadable.swift */; };
+		1AD6379B2D76F22C00E572B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379A2D76F22C00E572B8 /* HomeViewModel.swift */; };
+		1AD6379D2D77081B00E572B8 /* Usermanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379C2D77081B00E572B8 /* Usermanager.swift */; };
+		1AD6379F2D770B8B00E572B8 /* SignUpBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6379E2D770B8B00E572B8 /* SignUpBuilder.swift */; };
+		1AD637A12D770EC300E572B8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637A02D770EC300E572B8 /* UIViewController+Extension.swift */; };
+		1AD637A52D77184F00E572B8 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637A42D77184F00E572B8 /* HomeBuilder.swift */; };
+		1AD637A92D7721C000E572B8 /* SignInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637A82D7721C000E572B8 /* SignInBuilder.swift */; };
+		1AD637AB2D7723FD00E572B8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD637AA2D7723FD00E572B8 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD637502D75FF9F00E572B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD637312D75FF9D00E572B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD637382D75FF9D00E572B8;
+			remoteInfo = AjmeraInfotech;
+		};
+		1AD6375A2D75FF9F00E572B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD637312D75FF9D00E572B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD637382D75FF9D00E572B8;
+			remoteInfo = AjmeraInfotech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD637392D75FF9D00E572B8 /* AjmeraInfotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjmeraInfotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD6373C2D75FF9D00E572B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD6373E2D75FF9D00E572B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AD637432D75FF9D00E572B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD637452D75FF9F00E572B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD637482D75FF9F00E572B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD6374A2D75FF9F00E572B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD6374F2D75FF9F00E572B8 /* AjmeraInfotechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjmeraInfotechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD637532D75FF9F00E572B8 /* AjmeraInfotechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmeraInfotechTests.swift; sourceTree = "<group>"; };
+		1AD637592D75FF9F00E572B8 /* AjmeraInfotechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjmeraInfotechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD6375D2D75FF9F00E572B8 /* AjmeraInfotechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmeraInfotechUITests.swift; sourceTree = "<group>"; };
+		1AD6375F2D75FF9F00E572B8 /* AjmeraInfotechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmeraInfotechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AD6376F2D760AC500E572B8 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1AD637712D760AD300E572B8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1AD637742D760B5B00E572B8 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1AD637762D760E8B00E572B8 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		1AD637782D760EC300E572B8 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		1AD6377A2D760F7A00E572B8 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		1AD6377C2D76104000E572B8 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		1AD637802D76139900E572B8 /* APIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		1AD637832D76156E00E572B8 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		1AD637852D76173A00E572B8 /* APIClientErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientErrorManager.swift; sourceTree = "<group>"; };
+		1AD637882D761CFB00E572B8 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		1AD6378A2D76264400E572B8 /* AjmeraAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmeraAssets.swift; sourceTree = "<group>"; };
+		1AD6378C2D762B2C00E572B8 /* AjmeraColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjmeraColors.swift; sourceTree = "<group>"; };
+		1AD637942D76E07900E572B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1AD637962D76ED5E00E572B8 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		1AD637982D76EE2900E572B8 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		1AD6379A2D76F22C00E572B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1AD6379C2D77081B00E572B8 /* Usermanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usermanager.swift; sourceTree = "<group>"; };
+		1AD6379E2D770B8B00E572B8 /* SignUpBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpBuilder.swift; sourceTree = "<group>"; };
+		1AD637A02D770EC300E572B8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1AD637A42D77184F00E572B8 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		1AD637A82D7721C000E572B8 /* SignInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInBuilder.swift; sourceTree = "<group>"; };
+		1AD637AA2D7723FD00E572B8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD637362D75FF9D00E572B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD6374C2D75FF9F00E572B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD637562D75FF9F00E572B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD637302D75FF9D00E572B8 = {
+			isa = PBXGroup;
+			children = (
+				1AD6373B2D75FF9D00E572B8 /* AjmeraInfotech */,
+				1AD637522D75FF9F00E572B8 /* AjmeraInfotechTests */,
+				1AD6375C2D75FF9F00E572B8 /* AjmeraInfotechUITests */,
+				1AD6373A2D75FF9D00E572B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD6373A2D75FF9D00E572B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637392D75FF9D00E572B8 /* AjmeraInfotech.app */,
+				1AD6374F2D75FF9F00E572B8 /* AjmeraInfotechTests.xctest */,
+				1AD637592D75FF9F00E572B8 /* AjmeraInfotechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD6373B2D75FF9D00E572B8 /* AjmeraInfotech */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6373C2D75FF9D00E572B8 /* AppDelegate.swift */,
+				1AD6373E2D75FF9D00E572B8 /* SceneDelegate.swift */,
+				1AD637932D76DEC100E572B8 /* Home */,
+				1AD6376D2D760A9600E572B8 /* SignUp */,
+				1AD6376C2D760A8F00E572B8 /* SignIn */,
+				1AD637732D760B4000E572B8 /* Helper */,
+				1AD637822D76155700E572B8 /* Constants */,
+				1AD6376E2D760AA200E572B8 /* Resource */,
+				1AD637902D76B7A600E572B8 /* Extensions */,
+				1AD637872D761CEF00E572B8 /* Common */,
+				1AD637422D75FF9D00E572B8 /* Main.storyboard */,
+				1AD637472D75FF9F00E572B8 /* LaunchScreen.storyboard */,
+				1AD6374A2D75FF9F00E572B8 /* Info.plist */,
+			);
+			path = AjmeraInfotech;
+			sourceTree = "<group>";
+		};
+		1AD637522D75FF9F00E572B8 /* AjmeraInfotechTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637532D75FF9F00E572B8 /* AjmeraInfotechTests.swift */,
+			);
+			path = AjmeraInfotechTests;
+			sourceTree = "<group>";
+		};
+		1AD6375C2D75FF9F00E572B8 /* AjmeraInfotechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6375D2D75FF9F00E572B8 /* AjmeraInfotechUITests.swift */,
+				1AD6375F2D75FF9F00E572B8 /* AjmeraInfotechUITestsLaunchTests.swift */,
+			);
+			path = AjmeraInfotechUITests;
+			sourceTree = "<group>";
+		};
+		1AD6376C2D760A8F00E572B8 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6376F2D760AC500E572B8 /* SignInViewController.swift */,
+				1AD637762D760E8B00E572B8 /* SignInViewModel.swift */,
+				1AD6377C2D76104000E572B8 /* SignInModel.swift */,
+				1AD637A82D7721C000E572B8 /* SignInBuilder.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		1AD6376D2D760A9600E572B8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637712D760AD300E572B8 /* SignUpViewController.swift */,
+				1AD637782D760EC300E572B8 /* SignUpViewModel.swift */,
+				1AD6377A2D760F7A00E572B8 /* SignUpModel.swift */,
+				1AD6379E2D770B8B00E572B8 /* SignUpBuilder.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		1AD6376E2D760AA200E572B8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6378A2D76264400E572B8 /* AjmeraAssets.swift */,
+				1AD637452D75FF9F00E572B8 /* Assets.xcassets */,
+				1AD6378C2D762B2C00E572B8 /* AjmeraColors.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1AD637732D760B4000E572B8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637742D760B5B00E572B8 /* APIService.swift */,
+				1AD637802D76139900E572B8 /* APIRequestManager.swift */,
+				1AD637852D76173A00E572B8 /* APIClientErrorManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1AD637822D76155700E572B8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637832D76156E00E572B8 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1AD637872D761CEF00E572B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637882D761CFB00E572B8 /* ValidationManager.swift */,
+				1AD637962D76ED5E00E572B8 /* Alertable.swift */,
+				1AD637982D76EE2900E572B8 /* Loadable.swift */,
+				1AD6379C2D77081B00E572B8 /* Usermanager.swift */,
+				1AD637AA2D7723FD00E572B8 /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1AD637902D76B7A600E572B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637A02D770EC300E572B8 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AD637932D76DEC100E572B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1AD637942D76E07900E572B8 /* HomeViewController.swift */,
+				1AD6379A2D76F22C00E572B8 /* HomeViewModel.swift */,
+				1AD637A42D77184F00E572B8 /* HomeBuilder.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD637382D75FF9D00E572B8 /* AjmeraInfotech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD637632D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotech" */;
+			buildPhases = (
+				1AD637352D75FF9D00E572B8 /* Sources */,
+				1AD637362D75FF9D00E572B8 /* Frameworks */,
+				1AD637372D75FF9D00E572B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AjmeraInfotech;
+			productName = AjmeraInfotech;
+			productReference = 1AD637392D75FF9D00E572B8 /* AjmeraInfotech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD6374E2D75FF9F00E572B8 /* AjmeraInfotechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD637662D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotechTests" */;
+			buildPhases = (
+				1AD6374B2D75FF9F00E572B8 /* Sources */,
+				1AD6374C2D75FF9F00E572B8 /* Frameworks */,
+				1AD6374D2D75FF9F00E572B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD637512D75FF9F00E572B8 /* PBXTargetDependency */,
+			);
+			name = AjmeraInfotechTests;
+			productName = AjmeraInfotechTests;
+			productReference = 1AD6374F2D75FF9F00E572B8 /* AjmeraInfotechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD637582D75FF9F00E572B8 /* AjmeraInfotechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD637692D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotechUITests" */;
+			buildPhases = (
+				1AD637552D75FF9F00E572B8 /* Sources */,
+				1AD637562D75FF9F00E572B8 /* Frameworks */,
+				1AD637572D75FF9F00E572B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD6375B2D75FF9F00E572B8 /* PBXTargetDependency */,
+			);
+			name = AjmeraInfotechUITests;
+			productName = AjmeraInfotechUITests;
+			productReference = 1AD637592D75FF9F00E572B8 /* AjmeraInfotechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD637312D75FF9D00E572B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1AD637382D75FF9D00E572B8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1AD6374E2D75FF9F00E572B8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1AD637382D75FF9D00E572B8;
+					};
+					1AD637582D75FF9F00E572B8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1AD637382D75FF9D00E572B8;
+					};
+				};
+			};
+			buildConfigurationList = 1AD637342D75FF9D00E572B8 /* Build configuration list for PBXProject "AjmeraInfotech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD637302D75FF9D00E572B8;
+			packageReferences = (
+			);
+			productRefGroup = 1AD6373A2D75FF9D00E572B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD637382D75FF9D00E572B8 /* AjmeraInfotech */,
+				1AD6374E2D75FF9F00E572B8 /* AjmeraInfotechTests */,
+				1AD637582D75FF9F00E572B8 /* AjmeraInfotechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD637372D75FF9D00E572B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD637462D75FF9F00E572B8 /* Assets.xcassets in Resources */,
+				1AD637492D75FF9F00E572B8 /* Base in Resources */,
+				1AD637442D75FF9D00E572B8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD6374D2D75FF9F00E572B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD637572D75FF9F00E572B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD637352D75FF9D00E572B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD6379B2D76F22C00E572B8 /* HomeViewModel.swift in Sources */,
+				1AD6378B2D76264400E572B8 /* AjmeraAssets.swift in Sources */,
+				1AD637812D76139900E572B8 /* APIRequestManager.swift in Sources */,
+				1AD6377B2D760F7A00E572B8 /* SignUpModel.swift in Sources */,
+				1AD637702D760AC500E572B8 /* SignInViewController.swift in Sources */,
+				1AD637A92D7721C000E572B8 /* SignInBuilder.swift in Sources */,
+				1AD637772D760E8B00E572B8 /* SignInViewModel.swift in Sources */,
+				1AD637792D760EC300E572B8 /* SignUpViewModel.swift in Sources */,
+				1AD6379D2D77081B00E572B8 /* Usermanager.swift in Sources */,
+				1AD637892D761CFB00E572B8 /* ValidationManager.swift in Sources */,
+				1AD6373D2D75FF9D00E572B8 /* AppDelegate.swift in Sources */,
+				1AD637862D76173A00E572B8 /* APIClientErrorManager.swift in Sources */,
+				1AD6373F2D75FF9D00E572B8 /* SceneDelegate.swift in Sources */,
+				1AD637A12D770EC300E572B8 /* UIViewController+Extension.swift in Sources */,
+				1AD637722D760AD300E572B8 /* SignUpViewController.swift in Sources */,
+				1AD637992D76EE2900E572B8 /* Loadable.swift in Sources */,
+				1AD637952D76E07900E572B8 /* HomeViewController.swift in Sources */,
+				1AD637972D76ED5E00E572B8 /* Alertable.swift in Sources */,
+				1AD637842D76156E00E572B8 /* AppConstants.swift in Sources */,
+				1AD637752D760B5B00E572B8 /* APIService.swift in Sources */,
+				1AD637AB2D7723FD00E572B8 /* BaseViewController.swift in Sources */,
+				1AD6377D2D76104000E572B8 /* SignInModel.swift in Sources */,
+				1AD637A52D77184F00E572B8 /* HomeBuilder.swift in Sources */,
+				1AD6378D2D762B2C00E572B8 /* AjmeraColors.swift in Sources */,
+				1AD6379F2D770B8B00E572B8 /* SignUpBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD6374B2D75FF9F00E572B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD637542D75FF9F00E572B8 /* AjmeraInfotechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD637552D75FF9F00E572B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD637602D75FF9F00E572B8 /* AjmeraInfotechUITestsLaunchTests.swift in Sources */,
+				1AD6375E2D75FF9F00E572B8 /* AjmeraInfotechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD637512D75FF9F00E572B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD637382D75FF9D00E572B8 /* AjmeraInfotech */;
+			targetProxy = 1AD637502D75FF9F00E572B8 /* PBXContainerItemProxy */;
+		};
+		1AD6375B2D75FF9F00E572B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD637382D75FF9D00E572B8 /* AjmeraInfotech */;
+			targetProxy = 1AD6375A2D75FF9F00E572B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD637422D75FF9D00E572B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD637432D75FF9D00E572B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD637472D75FF9F00E572B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD637482D75FF9F00E572B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD637612D75FF9F00E572B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AD637622D75FF9F00E572B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD637642D75FF9F00E572B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AjmeraInfotech/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD637652D75FF9F00E572B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AjmeraInfotech/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD637672D75FF9F00E572B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjmeraInfotech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AjmeraInfotech";
+			};
+			name = Debug;
+		};
+		1AD637682D75FF9F00E572B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AjmeraInfotech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AjmeraInfotech";
+			};
+			name = Release;
+		};
+		1AD6376A2D75FF9F00E572B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AjmeraInfotech;
+			};
+			name = Debug;
+		};
+		1AD6376B2D75FF9F00E572B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K566NJQHDF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.AjmeraInfotechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AjmeraInfotech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD637342D75FF9D00E572B8 /* Build configuration list for PBXProject "AjmeraInfotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD637612D75FF9F00E572B8 /* Debug */,
+				1AD637622D75FF9F00E572B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD637632D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD637642D75FF9F00E572B8 /* Debug */,
+				1AD637652D75FF9F00E572B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD637662D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD637672D75FF9F00E572B8 /* Debug */,
+				1AD637682D75FF9F00E572B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD637692D75FF9F00E572B8 /* Build configuration list for PBXNativeTarget "AjmeraInfotechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD6376A2D75FF9F00E572B8 /* Debug */,
+				1AD6376B2D75FF9F00E572B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD637312D75FF9D00E572B8 /* Project object */;
+}
